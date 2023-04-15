@@ -1,0 +1,32 @@
+.icon {
+    cursor: pointer;
+    align-items: right;
+    width: 5%;
+    height: 5%;
+    margin-top: 1.5%;
+    margin-left: 87.5%;
+    transition: 1s;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+  }
+
+.menu {
+    cursor: pointer;
+    width: 3%;
+    height: 3%;
+    margin-left: 2.5%;
+    margin-bottom: 1%;
+    transition: 1s;
+}
+
+.menu:hover{
+    transform: scale(1.1);
+}
+
+.navigate {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
